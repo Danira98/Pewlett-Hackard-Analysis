@@ -12,20 +12,21 @@ In this assignment, we are instructed to return the number of retiring employees
 
 ## Results:
 
-After filtering our data to find the specified criteria given, we were able to create the following table that displays the amount of employees on track to retirement:
+After filtering our data to find the employees that meet our retirement criteria, and cleaning our data so that we count only the most recent title each employee holds, we found that a total of *72,458* employees meet our criteria. The following table showcases the total amount of employees for each title:
 
 ![retiring_titles_png](https://user-images.githubusercontent.com/111034667/195475341-372eae81-80d0-4077-b1ca-334f4015eca2.png)
 
-The following points are important to note:
-- The title that holds most amount of employees on track to retirement is Senior Engineer, with the total being *25,916*.
-- The title that holds the least amount of employees on track to retirement is Manager, with the total being *2*.
-- The two tiles that most likely contain the largest amount of employees that could meet the criteria for the mentorship program are Senior Staff and Senior Engineer.
-- The title that will have the most amount of challenges to find mentors for the next generation will be Manager.
+- Based on the table above, we can see that the title that holds the most amount of employees is Senior Engineer, with the total being *25,916*.
+- Based on the table above, we can observe that the title Manager contains the lowest amount of employees on track to retirement, with the total being *2*.
+
+From the table mentorship_eligibility, where we list the total amount of employees that meet the criteria to participate in the mentorship program, we can observe the following:
+- Out of the *1,049* employees that meet the criteria for the mentorship program, the two tiles that most likely contain the largest amount of employees that could participate in the program are Senior Staff and Senior Engineer.
+- The title that will face more challenges to find mentors for the next generation will be Manager, followed closely by Assistant Engineer.
 
 
 ## Summary:
 
-The company Pewlett Hackard will have a large amount of employees retiring within the next few years, with the total amount being *72,458* employees. This means that the same amount of employees will need to be hire to fufill these empty possitions, though not all positions will need to be filled within the same year. It will be ideal to do additional research to find the amount of positions that will need to be filled within each year based on the employees birth year between the years of 1952 and 1955.
+The company Pewlett Hackard will have a large amount of employees retiring within the next few years. This means that the same amount of employees will need to be hire to fufill these empty possitions, though not all positions will need to be filled within the same year. It will be ideal to do additional research to find the amount of positions that will need to be filled within each year based on the employees birth year between the years of 1952 and 1955.
 
 Additionally, based on the year the criteria of the mentorship program is based on, most likely there will be some titles that will have a lower probability of finding mentors or not having any employees that meet the criteria. It would be in the company's best interest to do additional research to count how many employees of each title meet the criteria for the mentorship program. In the case where the are slim to none available employees within a title to participate in the program, they can discuss wether they will need to modify the criteria or perhaps hire more employees within that role so that future generations have a higher chance of obtaining a mentors within their role.
 
