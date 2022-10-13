@@ -1,1 +1,33 @@
-# Pewlett-Hackard-Analysis
+# ***Pewlett Hackard Analysis***
+
+## Overview of Project
+
+### Overview:
+
+The company Pewlett Hackard reached out to us to help them locate the amount of employees that are about to retire to offer them a retirement package, as well as locate the departments that will need positions to be filled in the near future. We are facilitated multiple csv files that contain information for each department, as well as individual information of employess. It is our job to create new tables merging the information given to fastrack our findings, create new tables that contain only the employees that are reaching retirment in the near future, and all the employees's information including department, employee number, dates and their title in the company. We are instructed to use both PostgreSQL and pgAdmin to achieve these goals.
+
+### Purpose:
+
+In this assignment, we are instructed to return the number of retiring employees per title in each department, specificallly employees that have the birthdays between January 1,1952 and December 31,1955. Also, we are expected to identify the employees that are elegible to participate in a mentorship program with the criteria being their birthdays fall within the year of 1965. To expedite the report, we are using SQL to return the tables that hold our desired results.
+
+## Results:
+
+After filtering our data to find the specified criteria given, we were able to create the following table that displays the amount of employees on track to retirement:
+
+![retiring_titles_png](https://user-images.githubusercontent.com/111034667/195475341-372eae81-80d0-4077-b1ca-334f4015eca2.png)
+
+The following points are important to note:
+- The title that holds most amount of employees on track to retirement is Senior Engineer, with the total being *25,916*.
+- The title that holds the least amount of employees on track to retirement is Manager, with the total being *2*.
+- The two tiles that most likely contain the largest amount of employees that could meet the criteria for the mentorship program are Senior Staff and Senior Engineer.
+- The title that will have the most amount of challenges to find mentors for the next generation will be Manager.
+
+
+## Summary:
+
+The company Pewlett Hackard will have a large amount of employees retiring within the next few years, with the total amount being *72,458* employees. This means that the same amount of employees will need to be hire to fufill these empty possitions, though not all positions will need to be filled within the same year. It will be ideal to do additional research to find the amount of positions that will need to be filled within each year based on the employees birth year between the years of 1952 and 1955.
+
+Additionally, based on the year the criteria of the mentorship program is based on, most likely there will be some titles that will have a lower probability of finding mentors or not having any employees that meet the criteria. It would be in the company's best interest to do additional research to count how many employees of each title meet the criteria for the mentorship program. In the case where the are slim to none available employees within a title to participate in the program, they can discuss wether they will need to modify the criteria or perhaps hire more employees within that role so that future generations have a higher chance of obtaining a mentors within their role.
+
+
+
