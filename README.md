@@ -19,7 +19,8 @@ After filtering our data to find the employees that meet our retirement criteria
 - Based on the table above, we can see that the title that holds the most amount of employees is Senior Engineer, with the total being *25,916*.
 - Based on the table above, we can observe that the title Manager contains the lowest amount of employees on track to retirement, with the total being *2*.
 
-From the table mentorship_eligibility, where we list the total amount of employees that meet the criteria to participate in the mentorship program, we can observe the following:
+From the table [mentorship_eligibility.csv](https://github.com/Danira98/Pewlett-Hackard-Analysis/files/9769913/mentorship_eligibility.csv), where we list the total amount of employees that meet the criteria to participate in the mentorship program, we can observe the following:
+
 - Out of the *1,049* employees that meet the criteria for the mentorship program, the two tiles that most likely contain the largest amount of employees that could participate in the program are Senior Staff and Senior Engineer.
 - The title that will face more challenges to find mentors for the next generation will be Manager, followed closely by Assistant Engineer.
 
